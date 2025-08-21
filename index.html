@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZennialWear | Old School x GenZ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">ZennialWear</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#lookbook">Lookbook</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="menu-icons">
+      <div id="cart-btn">🛒</div>
+      <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h1>Old School Meets Gen Z</h1>
+      <p>Timeless vibes with a modern edge.</p>
+      <a href="#shop" class="btn">Shop Now</a>
+    </div>
+  </section>
+
+  <!-- Shop Section -->
+  <section class="shop" id="shop">
+    <h2>Featured Collection</h2>
+    <div class="products">
+      <div class="product-card" data-name="Old School Tee" data-price="39.99">
+        <img src="https://via.placeholder.com/250" alt="Old School Tee">
+        <h3>Old School Tee</h3>
+        <p>$39.99</p>
+        <button class="add-cart">Add to Cart</button>
+      </div>
+      <div class="product-card" data-name="GenZ Hoodie" data-price="59.99">
+        <img src="https://via.placeholder.com/250" alt="GenZ Hoodie">
+        <h3>GenZ Hoodie</h3>
+        <p>$59.99</p>
+        <button class="add-cart">Add to Cart</button>
+      </div>
+      <div class="product-card" data-name="Retro Cap" data-price="19.99">
+        <img src="https://via.placeholder.com/250" alt="Retro Cap">
+        <h3>Retro Cap</h3>
+        <p>$19.99</p>
+        <button class="add-cart">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <h2>About ZennialWear</h2>
+    <p>
+      ZennialWear is a fusion of old-school classics and GenZ street fashion. 
+      We bridge generations through timeless yet bold styles.
+    </p>
+  </section>
+
+  <!-- Lookbook -->
+  <section class="lookbook" id="lookbook">
+    <h2>Lookbook</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/300" alt="Look 1">
+      <img src="https://via.placeholder.com/300" alt="Look 2">
+      <img src="https://via.placeholder.com/300" alt="Look 3">
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Cart Sidebar -->
+  <div class="cart" id="cart">
+    <h2>Your Cart</h2>
+    <div class="cart-items"></div>
+    <div class="cart-total">
+      <strong>Total:</strong> $<span id="cart-total">0.00</span>
+    </div>
+    <button id="checkout-btn">Checkout</button>
+    <span id="close-cart">&times;</span>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 ZennialWear | Old School x GenZ</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
